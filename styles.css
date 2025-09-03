@@ -1,0 +1,56 @@
+.main {
+  background-image: url("images/backgroundimage.avif");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px;
+}
+
+.brand h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.brand .blue {
+  color: white;
+}
+
+.brand p {
+  font-size: 0.9rem;
+  color: #ccc;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: cyan;
+}
+
+.btn {
+  border: 2px solid cyan;
+  padding: 8px 16px;
+  border-radius: 18px;
+  text-decoration: none;
+  color: cyan;
+  transition: all 0.3s;
+}
+
+.btn:hover {
+  background: cyan;
+  color: #000;
+}
