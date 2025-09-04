@@ -1,7 +1,5 @@
-.main {
-  background-image: url("images/backgroundimage.avif");
-  background-size: cover;
-  background-repeat: no-repeat;
+body {
+  background-color: #000;
 }
 
 .navbar {
@@ -9,6 +7,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 15px 50px;
+  border-bottom: 2px solid white;
 }
 
 .brand h1 {
@@ -17,12 +16,12 @@
 }
 
 .brand .blue {
-  color: white;
+  color: #fff;
 }
 
 .brand p {
   font-size: 0.9rem;
-  color: #ccc;
+  color: #fff;
 }
 
 .nav-links {
@@ -33,7 +32,7 @@
 
 .nav-links a {
   text-decoration: none;
-  color: #fff;
+  color: #FFF;
   transition: color 0.3s;
 }
 
@@ -53,4 +52,10 @@
 .btn:hover {
   background: cyan;
   color: #000;
+}
+
+iframe {
+  width: 100%;
+  height: calc(100vh - 80px); /* adjust based on navbar height */
+  border: none;
 }
