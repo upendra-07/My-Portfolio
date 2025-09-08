@@ -4,24 +4,8 @@ body {
 
 .navbar {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: flex-end;
   padding: 15px 50px;
-  border-bottom: 2px solid white;
-}
-
-.brand h1 {
-  font-size: 1.5rem;
-  font-weight: bold;
-}
-
-.brand .blue {
-  color: #fff;
-}
-
-.brand p {
-  font-size: 0.9rem;
-  color: #fff;
 }
 
 .nav-links {
@@ -31,27 +15,28 @@ body {
 }
 
 .nav-links a {
+  font-family: sans-serif;
   text-decoration: none;
   color: #FFF;
   transition: color 0.3s;
 }
 
-.nav-links a:hover {
-  color: cyan;
+.nav-links a:hover:not(.btn) {
+  color: rgb(210, 12, 74);
 }
 
 .btn {
-  border: 2px solid cyan;
   padding: 8px 16px;
   border-radius: 18px;
   text-decoration: none;
-  color: cyan;
+  font-family: sans-serif;
+  color: #fff;
+  background: rgb(210, 12, 74);
   transition: all 0.3s;
 }
 
 .btn:hover {
-  background: cyan;
-  color: #000;
+  background: rgb(242, 0, 77);
 }
 
 iframe {
