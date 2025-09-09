@@ -1,12 +1,38 @@
+@import url('./index.css');
+
 body {
-    color: white;
+    color: var(--white);
+    font-family: sans-serif;
 }
 
+
 .main {
-    display: flex;
-    justify-content: space-between;
+    margin: 6%;
+}
+
+.wish {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.name2 {
+    font-weight: bold;
+    font-size: 45px;
+}
+
+.name1 {
+    font-weight: bold;
+    font-size: 45px;
+    color: var(--primary-color)
 }
 
 .experience {
-    
+    font-weight: bold;
+    font-size: 30px;
+    color: var(--primary-color)
+}
+
+.desc {
+    font-size: 20px;
+    line-height: 35px;
 }
