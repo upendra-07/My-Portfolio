@@ -41,6 +41,6 @@ body {
 
 iframe {
   width: 100%;
-  height: calc(100vh - 80px); /* adjust based on navbar height */
+  height: calc(100vh - 150px);
   border: none;
 }
